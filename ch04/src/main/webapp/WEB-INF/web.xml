@@ -1,0 +1,35 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+		<servlet-name>ShopServlet</servlet-name>
+		<servlet-class>eshop.ShopServlet</servlet-class>
+		<init-param>
+			<param-name>base</param-name>
+			<param-value>/eshop/shop</param-value>
+		</init-param>
+		<init-param>
+			<param-name>imageURL</param-name>
+			<param-value>/eshop/images/</param-value>
+		</init-param>
+		<init-param>
+			<param-name>jdbcDriver</param-name>
+			<param-value>com.mysql.cj.jdbc.Driver</param-value>
+		</init-param>
+		<init-param>
+			<param-name>dbURL</param-name>
+			<param-value>jdbc:mysql://localhost:3306/shop</param-value>
+		</init-param>
+		<init-param>
+			<param-name>dbUserName</param-name>
+			<param-value>phpmyadmin</param-value>
+		</init-param>
+		<init-param>
+			<param-name>dbPassword</param-name>
+			<param-value>qwas</param-value>
+		</init-param>
+	</servlet>
+</web-app>
